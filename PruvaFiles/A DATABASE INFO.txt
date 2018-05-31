@@ -1,0 +1,31 @@
+Hostinger:
+- admin username: wordadmin
+- password: word1data
+- email: luismarroquin161@gmail.com
+
+-------------------------------------------------------------------------------------------
+
+Local: http://www.wpbeginner.com/wp-tutorials/how-to-install-wordpress-on-your-windows-computer-using-wamp/
+
+// Click on taskbar icon "W" -> phpMyAdmin
+- username: root
+- password: 
+- server choice: MySQL
+
+// Databases -> Name: test_db - Collation -> Create
+
+// In form after: http://localhost/wordpress/index.php
+- Database Name: test_db
+- Username: root
+- Password: 
+- Database Host: localhost
+- Table Prefix: wp_
+
+// Installation
+- Site Title: Pruva
+- Username: admin
+- Password: gF4uPBF9frS9
+- Email: luismarroquin161@gmail.com
+
+
+
