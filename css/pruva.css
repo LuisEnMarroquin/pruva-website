@@ -110,3 +110,159 @@ h2{
 .moradito{
   background-color: rgba(114, 55, 128);
 }
+.conocenos{
+  position: absolute;
+  top: calc(100% - 60%);
+  left: calc(100% - 93.5%);
+  background-color: rgba(114, 55, 128,0.8);
+  color: rgb(236, 168, 32);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* font-size: 3rem; */
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.conocenos:hover{
+  background-color:rgb(236, 168, 32,0.9);
+  color: rgba(114, 55, 128);
+  top: calc(100% - 60%);
+  left: calc(100% - 93.5%);
+  /* font-size: 3rem; */
+}
+.programas{
+  position: absolute;
+  top: calc(100% - 60%);
+  left: calc(100% - 83%);
+  background-color: rgba(114, 55, 128,0.8);
+  color: rgb(236, 168, 32);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* font-size: 3.7rem; */
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.programas:hover{
+  background-color:rgb(236, 168, 32,0.9);
+  color: rgba(114, 55, 128);
+  /* font-size: 3.7rem; */
+}
+.flow{
+  overflow: hidden;
+}
+.actividades{
+  position: absolute;
+  top: calc(100% - 60%);
+  left: calc(100% - 93.5%);
+  background-color: rgba(114, 55, 128,0.8);
+  color: rgb(236, 168, 32);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* font-size: 3rem; */
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.actividades:hover{
+  background-color:rgb(236, 168, 32,0.9);
+  color: rgba(114, 55, 128);
+  top: calc(100% - 60%);
+  left: calc(100% - 93.5%);
+  /* font-size: 3rem; */
+}
+.gallery {
+  position: absolute;
+  top: calc(100% - 60%);
+  left: calc(100% - 91%);
+  background-color: rgba(114, 55, 128,0.8);
+  color: rgb(236, 168, 32);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* font-size: 3.7rem; */
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.gallery:hover{
+  background-color:rgb(236, 168, 32,0.9);
+  color: rgba(114, 55, 128);
+  /* font-size: 3.7rem; */
+}
+
+@media only screen and (max-width: 576px) {
+  .conocenos{
+    position: absolute;
+    background-color: rgb(114, 55, 128);
+    color: rgb(236, 168, 32);
+    top: calc(100% - 60%);
+    left: calc(100% - 91%);
+    font-size: 1.7rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .conocenos:hover{
+    background-color:rgb(236, 168, 32);
+    color: rgb(114, 55, 128);
+    top: calc(100% - 60%);
+    left: calc(100% - 90.5%);
+    font-size: 1.7rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .programas{
+    position: absolute;
+    background-color: rgb(114, 55, 128);
+    color: rgb(236, 168, 32);
+    top: calc(100% - 60%);
+    left: calc(100% - 90%);
+    font-size: 1.7rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .programas:hover{
+    background-color:rgb(236, 168, 32);
+    color: rgb(114, 55, 128);
+    top: calc(100% - 60%);
+    left: calc(100% - 90%);
+    font-size: 1.7rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .actividades{
+    position: absolute;
+    background-color: rgb(114, 55, 128);
+    color: rgb(236, 168, 32);
+    top: calc(100% - 60%);
+    left: calc(100% - 91%);
+    font-size: 1.7rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .actividades:hover{
+    background-color:rgb(236, 168, 32);
+    color: rgb(114, 55, 128);
+    font-size: 1.7rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .gallery {
+    position: absolute;
+    top: calc(100% - 60%);
+    left: calc(100% - 87%);
+    background-color: rgb(114, 55, 128);
+    color: rgb(236, 168, 32);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* font-size: 3.7rem; */
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  .gallery:hover{
+    background-color:rgb(236, 168, 32);
+    color: rgb(114, 55, 128);
+    /* font-size: 3.7rem; */
+  }
+}
+
+.imagen:hover img{
+  filter: blur(2px) grayscale(80%);
+  transition: all 0.3s;
+
+}
