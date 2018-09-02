@@ -70,7 +70,7 @@
     }
 
         //Ejemplo de como usar:
-        if (form_mail("danyxlmlx@gmail.com",
+        if (form_mail("barbaras.martinez@udem.edu",
                                     "Voluntarios ' " .$_POST['Nombre']." ' Interesados",
                                     "Los datos introducidos en el formulario son:\n",
                                     $_POST["E-mail"]))
@@ -78,7 +78,7 @@
 
         // Ejemplo de como usar, poniendo como remitente el campo pasado de E-mail
         /*
-        if (form_mail("usuario_destino@dominio.com",
+        if (form_mail("danyxlmlx@gmail.com",
                                     "Activación de formulario",
                                     "Los datos introducidos en el formulario son:\n",
                                     $_POST["E-mail"]))
