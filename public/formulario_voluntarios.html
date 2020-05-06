@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrin-to-fit=no">
@@ -11,37 +12,41 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <title>Pruva</title>
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container col-md-6">
-      <a class="navbar-brand" href="index.html"><img src="images/LOGO-PRUVA.PNG" width="130" class="d-inline-block align-top" alt="LOGO-PRUVA"></a>
-      <button class="navbar-toggler btn-pruva" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <a class="navbar-brand" href="index.html"><img src="images/LOGO-PRUVA.PNG" width="130"
+          class="d-inline-block align-top" alt="LOGO-PRUVA"></a>
+      <button class="navbar-toggler btn-pruva" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
     <div class="col-md-5">
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav navbar-right">
           <li class="navbar-text-pruva nav-item">
             <a class="btn-pruva" href="conocenos.html" role="button">
-                      Conocenos
-                </a>
+              Conocenos
+            </a>
           </li>
           <li class="navbar-text-pruva nav-item">
             <a class="btn-pruva" href="programas.html" role="button">
-                      Programas
-                    </a>
+              Programas
+            </a>
           </li>
           <li class="navbar-text-pruva nav-item">
             <a class="btn-pruva" href="actividades.html" role="button">
-                      Actividades
-                    </a>
+              Actividades
+            </a>
           </li>
           <div class="dropdown show navbar-text-pruva">
-            <a class="btn-pruva dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Registro
-                        </a>
+            <a class="btn-pruva dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Registro
+            </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item-pruva" href="formulario_voluntarios.html">Voluntarios</a>
               <a class="dropdown-item-pruva" href="formulario_estudiantes.html">Estudiante</a>
@@ -54,84 +59,130 @@
     </div>
   </nav>
 
-<!-- Inline CSS based on choices in "Settings" tab -->
-<style>
-  .bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: #000000}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;}.bootstrap-iso
-  .form-control:focus { border-color: #723780;  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(114, 55, 128, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(114, 55, 128, 0.6);} .asteriskField{color: red;}
-</style>
+  <!-- Inline CSS based on choices in "Settings" tab -->
+  <style>
+    .bootstrap-iso .formden_header h2,
+    .bootstrap-iso .formden_header p,
+    .bootstrap-iso form {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #000000
+    }
 
-<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
-<div class="bootstrap-iso">
- <div class="container">
-   <div> <br>
-    <h2>Formulario Voluntarios</h2> <hr class="hr">
-   </div> <br>
-  <div class="row">
-   <div class="col-md-6 col-12">
+    .bootstrap-iso form button,
+    .bootstrap-iso form button:hover {
+      color: white !important;
+    }
 
-    <form method="post" action="php/enviarVoluntarios.php" enctype="multipart/form-data">
-     <div class="form-group ">
-      <label class="control-label " for="name">Nombre completo <span class="asteriskField">*</span></label>
-      <input class="form-control" id="name" name="Nombre" type="text" required/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label requiredField" for="email">Correo electrónico <span class="asteriskField">*</span></label>
-      <input class="form-control" id="email" name="E-mail" type="text" required/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label " for="subject">Teléfono <span class="asteriskField">*</span></label>
-      <input class="form-control" id="subject" name="subject" type="text" required/>
-     </div>
-     <div class="form-group ">
-      <label class="control-label " for="archivo1">Adjuntar CV <span class="asteriskField">*</span></label>
-      <input type="file" class="form-control-file" id="exampleFormControlFile1" name="archivo1" required> <!-- https://getbootstrap.com/docs/4.0/components/forms/ --> <br>
-     </div>
-     <div class="form-group">
-      <div>
-       <button class="btn " name="submit" type="submit" style="background-color:rgb(114, 55, 128); color:white; font-weight: bold;">Enviar</button>
-      </div>
-     </div>
-    </form>
-   </div>
-   <div class="col-md-6 col-12">
-     <img class="img-fluid" src="images/1.jpg" alt="">
-   </div>
-  </div>
- </div>
-</div>
+    .bootstrap-iso .form-control:focus {
+      border-color: #723780;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(114, 55, 128, 0.6);
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(114, 55, 128, 0.6);
+    }
 
-<div class="container-fluid" style="background-color:rgb(114, 55, 128); padding-top:40px; padding-bottom: 15px; margin-top: 25px; color: rgb(236, 168, 32);">
-  <div class="container">
-    <div class="row" style="text-align:center;">
-      <style>
-        a{ text-decoration: none; color: rgb(236, 168, 32); }
-        a:hover{ text-decoration: none; color: rgb(255, 255, 255); }
-        p{ font-weight: bold; margin-top: 10px;}
-        i{ font-size: 4em;}
-      </style>
-      <div class="col-md-3">
-        <a href="mailto:lideres.pruva@gmail.com" target="_blank"> <div> <i class="fas fa-envelope-square"> </i> </div>
-        <p> lideres.pruva@gmail.com </p> </a>
-      </div>
-      <div class="col-md-3">
-        <a href="tel:8122016969" target="_blank"> <div> <i class="fas fa-phone-square"> </i> </div>
-        <p>8122016969</p> </a>
-      </div>
-      <div class="col-md-3">
-        <a href="https://www.facebook.com/pruvaitp/" target="_blank"> <div> <i class="fab fa-facebook-square"> </i> </div>
-        <p> @pruvaitp </p> </a>
-      </div>
-      <div class="col-md-3">
-        <a href="https://www.youtube.com/channel/UCKo791rG_3J1_6aLgbHdE1w" target="_blank"> <div> <i class="fab fa-youtube-square"> </i> </div>
-        <p> PRUVA </p> </a>
+    .asteriskField {
+      color: red;
+    }
+  </style>
+
+  <!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+  <div class="bootstrap-iso">
+    <div class="container">
+      <div> <br>
+        <h2>Formulario Voluntarios</h2>
+        <hr class="hr">
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6 col-12">
+
+          <form method="post" action="php/enviarVoluntarios.php" enctype="multipart/form-data">
+            <div class="form-group ">
+              <label class="control-label " for="name">Nombre completo <span class="asteriskField">*</span></label>
+              <input class="form-control" id="name" name="Nombre" type="text" required />
+            </div>
+            <div class="form-group ">
+              <label class="control-label requiredField" for="email">Correo electrónico <span
+                  class="asteriskField">*</span></label>
+              <input class="form-control" id="email" name="E-mail" type="text" required />
+            </div>
+            <div class="form-group ">
+              <label class="control-label " for="subject">Teléfono <span class="asteriskField">*</span></label>
+              <input class="form-control" id="subject" name="subject" type="text" required />
+            </div>
+            <div class="form-group ">
+              <label class="control-label " for="archivo1">Adjuntar CV <span class="asteriskField">*</span></label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1" name="archivo1" required>
+              <!-- https://getbootstrap.com/docs/4.0/components/forms/ --> <br>
+            </div>
+            <div class="form-group">
+              <div>
+                <button class="btn " name="submit" type="submit"
+                  style="background-color:rgb(114, 55, 128); color:white; font-weight: bold;">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 col-12">
+          <img class="img-fluid" src="images/1.jpg" alt="">
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+  <div class="container-fluid"
+    style="background-color:rgb(114, 55, 128); padding-top:40px; padding-bottom: 15px; margin-top: 25px; color: rgb(236, 168, 32);">
+    <div class="container">
+      <div class="row" style="text-align:center;">
+        <style>
+          a {
+            text-decoration: none;
+            color: rgb(236, 168, 32);
+          }
+
+          a:hover {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+          }
+
+          p {
+            font-weight: bold;
+            margin-top: 10px;
+          }
+
+          i {
+            font-size: 4em;
+          }
+        </style>
+        <div class="col-md-3">
+          <a href="mailto:lideres.pruva@gmail.com" target="_blank">
+            <div> <i class="fas fa-envelope-square"> </i> </div>
+            <p> lideres.pruva@gmail.com </p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="tel:8122016969" target="_blank">
+            <div> <i class="fas fa-phone-square"> </i> </div>
+            <p>8122016969</p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://www.facebook.com/pruvaitp/" target="_blank">
+            <div> <i class="fab fa-facebook-square"> </i> </div>
+            <p> @pruvaitp </p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://www.youtube.com/channel/UCKo791rG_3J1_6aLgbHdE1w" target="_blank">
+            <div> <i class="fab fa-youtube-square"> </i> </div>
+            <p> PRUVA </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/jquery-3.3.1.min.js"> </script>
   <script src="js/bootstrap.min.js"> </script>
   <script src="js/popper.min.js"> </script>
 </body>
+
 </html>

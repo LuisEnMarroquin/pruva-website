@@ -1,0 +1,23 @@
+
+name: Pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        uses: actions/checkout@v1
+      - name: Copy CNAME
+        run: cp CNAME public/CNAME
+      - name: Deploy with github-pages
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.PUBLIC_REPO }}
+          BASE_BRANCH: master
+          BRANCH: gh-pages
+          FOLDER: public
